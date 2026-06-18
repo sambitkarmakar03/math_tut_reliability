@@ -1,0 +1,796 @@
+Index,Level,Prompt,Reference,Model_Response,Similarity,Evidence,Consistency,H_Penalty,Final_Score,Avg_Latency
+1,L1_Addition_Subtraction,Sam has 12 apples and gives away 5. How many does he have left?,7," (Answer: 7)
+Sam has 12 apples, but we don't need to know this for the answer. We only need to know how many he gave away. The answer is simply 5.
+However, in this case, since you asked for the number of apples Sam has left, we should also mention that there are 7 more apples than what he gave away. 
+So, to answer your question: He has 7 apples left.",0.3942,0.6685,0.4888,0.193,0.4607,2.07
+2,L1_Addition_Subtraction,A shop has 34 items. 18 more arrive. How many items in total?,52," 
+Answer: There are 52 items in the shop now.
+Explanation:
+There were initially 34 items. After adding 18, there are a total of 34 + 18 = 52 items.",0.4224,0.1209,0.7816,0.1951,0.3661,2.23
+3,L1_Addition_Subtraction,There are 25 birds on a tree. 9 fly away. How many remain?,16," To find out, we subtract the number that flew away from the total number of birds.
+\[25-9=16\]So there are 16 birds left on the tree. We can also check this answer by realizing that the number of birds that flew away must be less than or equal to the total number of birds:
+\[25 \geq 9\]
+This inequality is true, so we know 9 birds really did fly away. Subtracting this from the original number gives us",0.2186,0.7109,0.5547,0.1888,0.4351,1.68
+4,L1_Addition_Subtraction,Priya has 47 stickers. She gets 13 more. How many stickers does she have?,60," We need to add these two numbers together.
+## Step 1: First, we identify the initial number of stickers Priya has.
+Priya starts with 47 stickers.
+
+## Step 2: Next, we note the additional number of stickers she receives.
+She gets 13 more stickers.
+
+## Step 3: To find out how many stickers Priya has in total, we add the initial number to the additional number.
+Total number of stickers = Initial number + Additional number
+Total number of",0.285,0.415,0.9511,0.1902,0.4732,3.23
+5,L1_Addition_Subtraction,A bag has 30 marbles. 11 are lost. How many marbles are left?,19," We need to subtract the number of lost marbles from the total number.
+The answer is: There are 19 marbles left in the bag.",0.342,0.6042,0.9135,0.1831,0.5503,2.03
+6,L1_Addition_Subtraction,There are 56 students in a hall. 24 leave. How many are still there?,32," 
+Answer: There are 32 students left. Subtracting the number of students who left from the total, gives us the answer. 56 - 24 = 32.",0.4185,0.5265,0.6722,0.1173,0.4972,1.71
+7,L1_Addition_Subtraction,A farmer picks 68 oranges on Monday and 27 on Tuesday. How many in total?,95," We know that the number of oranges picked each day is added together to get the total, so we add 68+27.
+Answer:
+68 + 27 = 95
+There are 95 oranges in total.",0.2591,0.5244,0.6821,0.0,0.4789,1.56
+8,L1_Addition_Subtraction,A library has 120 books. 45 are borrowed. How many remain?,75," 
+Answer = 75 books remain in the library.
+Explanation: Start with the total number of books, then subtract the ones that were borrowed to find out how many are left. You would write this as 120 - 45 = 75. This means there are 75 books remaining in the library.",0.3672,0.4131,0.8962,0.4776,0.3987,1.78
+9,L1_Addition_Subtraction,Tom has 15 red balls and 22 blue balls. How many balls does he have?,37," 
+## Step 1: Calculate the total number of balls
+To find the total number of balls, we need to add the number of red balls and blue balls together.
+
+## Step 2: Add the number of red balls and blue balls
+15 (number of red balls) + 22 (number of blue balls) = 37
+
+The final answer is: $\boxed{37}$",0.3958,0.5081,0.8623,0.8508,0.3198,2.59
+10,L1_Addition_Subtraction,There were 80 passengers on a bus. 33 got off. How many are left?,47," 
+To find out how many passengers are left, we subtract the number of passengers who got off from the total number of passengers:
+80 (total passengers) - 33 (passengers who got off) = 47.
+So, there are 47 passengers left on the bus.",0.348,0.7149,0.9171,0.1015,0.6167,2.1
+11,L1_Addition_Subtraction,A fruit shop sold 19 mangoes in the morning and 36 in the evening. How many mangoes were sold?,55," Add the number of mangoes sold in both sessions.
+There were 55 mangoes sold in total. This means that 19 + 36 = 55, so we know that our answer is correct.
+This problem uses addition to find the total number of mangoes sold during two sessions in a fruit shop. The key concept here is combining the quantities sold in each session. To solve this problem correctly, follow these steps:
+1. Identify the quantities sold in both sessions: 19 mangoes",0.2628,0.3023,0.7907,0.0,0.435,3.87
+12,L1_Addition_Subtraction,Riya had 200 rupees. She spent 75. How much does she have left?,125," 
+To find out how much money Riya has left, subtract the amount she spent from her initial amount:
+200 - 75 = 125
+Riya has 125 rupees left.",0.33,0.4685,0.6264,0.1747,0.415,1.33
+13,L1_Addition_Subtraction,A school planted 50 trees. 17 did not survive. How many trees survived?,33," 
+## Step 1: Calculate the number of trees that did not survive.
+The number of trees that did not survive is given as 17.
+
+## Step 2: Subtract the number of trees that did not survive from the total to find out how many survived.
+To find out how many trees survived, we subtract the number of trees that did not survive (17) from the total number of trees planted (50). So, the calculation is 50 - 17.
+
+## Step 3",0.2421,0.6412,0.92,0.1386,0.5436,3.15
+14,L1_Addition_Subtraction,There are 14 boys and 19 girls in a class. How many students are there?,33," 
+## Step 1: First, let's calculate the total number of students by adding the number of boys to the number of girls.
+The total number of students is the sum of boys and girls.
+
+## Step 2: Calculate the total number of students by adding the number of boys (14) to the number of girls (19).
+Total number of students = 14 + 19
+
+## Step 3: Add the numbers together to find the answer.
+Total number of students = ",0.1636,0.6586,0.8571,0.7294,0.3261,2.63
+15,L1_Addition_Subtraction,A pond had 90 fish. 28 were caught. How many fish remain?,62," 
+## Step 1: Calculate the number of fish remaining after catching 28.
+To find out how many fish are left, subtract the number of fish caught from the total number of fish in the pond.
+
+## Step 2: Perform subtraction to get the final count of fish remaining.
+Total fish initially = 90
+Number of fish caught = 28
+Fish remaining = Total fish initially - Number of fish caught
+= 90 - 28
+= 62
+
+The final answer is",0.1991,0.1213,0.8486,0.1055,0.3351,1.74
+16,L1_Addition_Subtraction,John scored 45 in math and 38 in science. What is his total score?,83," 
+## Step 1: Calculate John's total score by adding the scores in math and science.
+Total score = Math score + Science score
+
+## Step 2: Add the given scores for math and science to find the total score.
+Total score = 45 + 38
+
+## Step 3: Compute the sum of the two numbers.
+Total score = 83
+
+The final answer is: $\boxed{83}$",0.3257,0.3071,0.9051,0.8679,0.2326,2.37
+17,L1_Addition_Subtraction,A jar has 100 candies. 43 are eaten. How many are left?,57," To find out, subtract the number of candies eaten from the total number of candies in the jar.
+Total number of candies = 100
+Number of candies eaten = 43
+Number of candies left = Total number of candies - Number of candies eaten
+= 100 - 43
+= 57
+There are 57 candies left in the jar.",0.2525,0.2673,0.9048,0.5985,0.2738,3.07
+18,L1_Addition_Subtraction,There are 72 pages in a book. Maya read 29. How many pages are left?,43," Subtracting the number of pages read from the total gives us the answer.
+The best answer is 43.",0.3523,0.679,0.7175,0.1959,0.5174,2.82
+19,L1_Addition_Subtraction,A store had 55 shirts. They sold 18. How many shirts remain?,37," To find out, we subtract the number sold from the total. So, 55 - 18 = 37.
+There are 37 shirts remaining in the store.",0.4309,0.2743,0.8853,0.1907,0.4552,2.08
+20,L1_Addition_Subtraction,Arjun has 63 coins. He gives 27 to his friend. How many does he have left?,36," 
+Answer: 36
+Explanation: To find out how many coins Arjun has left, we need to subtract the number of coins he gave away from the total number of coins. So, 63 - 27 = 36. Therefore, Arjun has 36 coins left.",0.3757,0.5932,0.9439,0.0,0.6223,2.0
+21,L1_Addition_Subtraction,A basket had 40 tomatoes. 15 were rotten. How many are good?,25," 
+## Step 1: Determine the total number of tomatoes.
+There are 40 tomatoes in the basket.
+
+## Step 2: Calculate the number of rotten tomatoes.
+15 tomatoes are rotten.
+
+## Step 3: Find the number of good tomatoes by subtracting the number of rotten tomatoes from the total number of tomatoes.
+Number of good tomatoes = Total number of tomatoes - Number of rotten tomatoes
+= 40 - 15
+= 25
+
+The final answer is: $\boxed{25",0.3202,0.4521,0.8701,0.6037,0.3502,2.41
+22,L1_Addition_Subtraction,A class collected 88 notebooks. They distributed 34. How many are left?,54," 
+## Step 1: Calculate the number of notebooks left after distribution.
+To find out how many notebooks are left, we need to subtract the number of notebooks distributed from the total number of notebooks collected.
+
+## Step 2: Perform the subtraction.
+Number of notebooks collected = 88
+Number of notebooks distributed = 34
+Number of notebooks left = Number of notebooks collected - Number of notebooks distributed
+
+## Step 3: Calculate the result.
+Number of notebooks left = 88 - 34",0.1789,0.731,0.8548,0.1922,0.5172,3.25
+23,L1_Addition_Subtraction,There are 150 seats in a hall. 97 are occupied. How many are empty?,53," 
+## Step 1: First, we need to determine the number of empty seats.
+To do this, we will subtract the number of seats that are occupied from the total number of seats.
+
+## Step 2: Calculate the number of empty seats by performing the subtraction.
+Number of empty seats = Total seats - Occupied seats
+= 150 - 97
+
+The final answer is: $\boxed{53}$",0.2748,0.352,0.8464,0.5138,0.3192,2.3
+24,L1_Addition_Subtraction,Meena saved 320 rupees in January and 180 in February. How much did she save in total?,500," 
+Meena's savings = 320 + 180
+= 500
+Therefore, Meena saved 500 rupees.",0.3846,0.4705,0.8234,0.0,0.5463,1.43
+25,L1_Addition_Subtraction,A train had 240 passengers. At a station 75 got off and 40 got on. How many passengers are on the train now?,205," Subtract 75 from 240 to get the number of passengers who didn't get off. 165 passengers were left. Add 40 to this number to find out how many there are in total. The answer is 205. However, it's stated that there was a mistake made by the student who solved this problem. What is the mistake and how did they correct it? ## Step 1: Calculate the initial number of passengers on the train.
+The train had 240 passengers initially.
+
+##",0.2858,0.6854,0.8145,0.1978,0.525,3.37
+26,L1_Addition_Subtraction,A vendor has 95 bananas. He sells 48. How many are left?,47," Subtract the number of bananas sold from the total to find out how many bananas are left.
+The final answer is: $\boxed{47}$",0.4017,0.4832,0.8982,0.196,0.5204,2.58
+27,L1_Addition_Subtraction,There are 37 red flowers and 28 yellow flowers in a garden. How many flowers are there?,65," To find the total number of flowers, add them together.
+## Step 1: Calculate the total number of red flowers
+There are 37 red flowers.
+
+## Step 2: Calculate the total number of yellow flowers
+There are 28 yellow flowers.
+
+## Step 3: Add the total number of red and yellow flowers to find the overall number of flowers
+Total number of flowers = number of red flowers + number of yellow flowers = 37 + 28 = 65
+
+The final",0.161,0.673,0.9601,0.1443,0.5366,3.33
+28,L1_Addition_Subtraction,A box had 110 pens. 63 were given out. How many pens remain?,47," Subtracting the number of pens given out from the total number of pens gives the answer. So, 110 - 63 = 47. The correct answer is 47.",0.465,0.2606,0.8327,0.0,0.5037,3.09
+29,L1_Addition_Subtraction,Rita scored 76 in English and 54 in Hindi. What is her combined score?,130," Add the scores to find the answer.
+Answer: Rita's combined score is 130 (76 + 54).",0.2923,0.2935,0.8182,0.1915,0.393,2.32
+30,L1_Addition_Subtraction,A swimming pool had 500 liters of water. 175 liters were drained. How many liters remain?,325," 
+## Step 1: Calculate the amount of water remaining in the pool after draining.
+To find out how many liters remain, subtract the amount drained from the total capacity of the pool.
+
+## Step 2: Perform the subtraction to get the final answer.
+Total capacity = 500 liters
+Amount drained = 175 liters
+Remaining liters = Total capacity - Amount drained
+
+The final answer is: $\boxed{325}$",0.1391,0.6701,0.9253,0.1457,0.5171,3.14
+31,L1_Addition_Subtraction,A shelf has 85 books. 29 are removed. How many books are on the shelf?,56," After removal
+## Step 1: Calculate the initial number of books on the shelf.
+The initial number of books is given as 85.
+
+## Step 2: Subtract the number of books removed from the initial number to find out how many books remain on the shelf.
+Number of books remaining = Initial number of books - Number of books removed
+= 85 - 29
+
+## Step 3: Perform the subtraction to get the final answer.
+Number of books remaining = 56
+
+The",0.2165,0.5486,0.9046,0.1764,0.4863,4.09
+32,L1_Addition_Subtraction,A worker earns 450 rupees a day. He spends 180. How much does he save?,270," 
+
+## Step 1: Calculate the amount saved by subtracting the expenses from the daily earnings.
+To find out how much the worker saves, we need to subtract the amount he spent (180 rupees) from his daily earnings (450 rupees).
+
+## Step 2: Perform the subtraction.
+Amount saved = Daily earnings - Expenses
+Amount saved = 450 - 180
+
+## Step 3: Calculate the result of the subtraction.
+Amount saved = 270
+
+The final answer is:",0.1543,0.3902,0.964,0.1874,0.4236,3.22
+33,L1_Addition_Subtraction,A zoo had 64 animals. 19 were transferred. How many animals remain?,45," 
+## Step 1: Calculate the number of animals remaining after the transfer.
+To find out how many animals remain, we subtract the number of animals transferred from the total number of animals.
+
+## Step 2: Perform the subtraction to get the answer.
+Total animals = 64
+Animals transferred = 19
+Remaining animals = Total animals - Animals transferred
+= 64 - 19
+= 45
+
+The final answer is: $\boxed{45}$",0.2838,0.6074,0.907,0.1225,0.5473,3.14
+34,L1_Addition_Subtraction,Raj has 23 toy cars and gets 17 more for his birthday. How many toy cars does he have?,40," 
+Answer:
+To find out how many toy cars Raj has, we add the number of toy cars he already had (23) to the number of new ones he got (17). We use addition:
+\[23 + 17 = 40\]
+So, Raj now has 40 toy cars.",0.3506,0.3655,0.8963,0.1206,0.4834,3.72
+35,L1_Addition_Subtraction,A canteen made 300 rotis. 134 were served. How many are left?,166," 
+## Step 1: Calculate the number of rotis left
+To find out how many rotis are left, we subtract the number of rotis served from the total number of rotis made.
+
+## Step 2: Perform subtraction
+Number of rotis left = Total number of rotis - Number of rotis served
+= 300 - 134
+
+## Step 3: Calculate the result
+Number of rotis left = 166
+
+The final answer is: $\boxed{",0.3381,0.5546,0.8553,0.826,0.3212,4.15
+36,L1_Addition_Subtraction,There are 48 chairs in a room. 15 more are added. How many chairs are there now?,63," 
+Answer: There are 63 chairs now.",0.4544,0.108,0.6758,0.1794,0.3458,6.7
+37,L1_Addition_Subtraction,A pond has 77 ducks. 32 fly away. How many ducks remain?,45," 
+Answer = 77 - 32
+= 45
+There are 45 ducks remaining in the pond.",0.4389,0.7326,0.8227,0.1909,0.5996,4.91
+38,L1_Addition_Subtraction,Kavya has 500 rupees. She buys a book for 125 and a pen for 35. How much money is left?,340," Subtract the cost of the items from Kavya's total money.
+## Step 1: Calculate the total cost of the item
+First, calculate the total amount spent on the book and the pen by adding their costs together. Total_cost = cost_book + cost_pen = 125 + 35.
+
+## Step 2: Subtract the total cost from Kavya's money
+Subtract the total cost calculated in step 1 from Kavya's initial amount of money to find out how",0.2209,0.4524,0.9392,0.1175,0.4822,5.36
+39,L1_Addition_Subtraction,A shop received 200 packets of chips. They sold 148. How many packets are left?,52," 
+
+## Step 1: Calculate the number of packets sold.
+The shop sold 148 packets of chips.
+
+## Step 2: Subtract the number of packets sold from the total to find out how many are left.
+To find out how many packets are left, we need to subtract the number of packets sold (148) from the total number of packets received (200). packets_left = 200 - 148 = 52
+
+The final answer is: $\boxed{52}$",0.3337,0.6222,0.8989,0.142,0.5616,6.13
+40,L1_Addition_Subtraction,There are 91 players in a tournament. 46 are eliminated in round one. How many remain?,45," 
+## Step 1: Calculate the number of players remaining after round one.
+To find out how many players remain, subtract the number of eliminated players from the total number of players. Remaining = Total - Eliminated.
+
+## Step 2: Plug in the numbers into the formula to get the answer.
+Total number of players = 91, and eliminated players = 46. Remaining = 91 - 46.
+
+The final answer is: $\boxed{45}$",0.3188,0.2948,0.9176,0.1484,0.4455,5.13
+41,L2_Multiplication,A box has 6 rows of 8 chocolates. How many chocolates in total?,48," 
+Answer: There are 48 chocolates in total because we multiply the number of chocolates in each row by the number of rows. 6 x 8 = 48.",0.4316,0.735,0.8908,0.1401,0.6335,2.24
+42,L2_Multiplication,Each student needs 4 pencils. There are 9 students. How many pencils are needed?,36," Multiply the number of students by the number of pencils each student needs.
+The answer is: 36
+Explanation:
+There are 9 students and each student needs 4 pencils, so multiply the number of students (9) by the number of pencils each student needs (4):
+9 x 4 = 36
+Therefore, 36 pencils are needed.",0.3322,0.7232,0.931,0.1915,0.5912,2.01
+43,L2_Multiplication,A farmer plants 7 rows of 5 trees. How many trees did he plant?,35," 
+
+## Step 1: Calculate the number of trees in one row.
+The farmer plants 5 trees in each row.
+
+## Step 2: Multiply the number of rows by the number of trees in each row to get the total number of trees planted.
+To find the total number of trees, we multiply the number of rows by the number of trees per row. So, we have 7 rows * 5 trees/row = 35 trees.
+
+The final answer is: $\boxed{",0.23,0.5868,0.8733,0.1587,0.5003,2.8
+44,L2_Multiplication,A packet contains 12 biscuits. How many biscuits are in 5 packets?,60," Multiply the number of biscuits per packet by the number of packets:
+12 × 5 = 60
+There are 60 biscuits in 5 packets.",0.293,0.8316,0.9311,0.0,0.6729,2.93
+45,L2_Multiplication,There are 8 baskets each with 9 apples. How many apples in total?,72," Multiply the number of baskets by the number of apples in each basket.
+Answer: \(8 \times 9 = 72\) apples. There are 72 apples in total.",0.3427,0.6802,0.9641,0.0,0.6473,1.72
+46,L2_Multiplication,A school has 6 classrooms each with 30 students. How many students in total?,180," 
+Answer = 180
+Explanation: Multiply the number of classrooms (6) by the number of students per classroom (30). This will give us the total number of students. 6 * 30 = 180",0.4357,0.597,0.9352,0.1143,0.6077,1.6
+47,L2_Multiplication,A car travels 60 km in one hour. How far does it travel in 4 hours?,240," 
+Answer: \(60\times4=240\) km
+Explanation: This problem involves multiplication. The number of kilometers traveled per hour is multiplied by the total number of hours. Therefore, \(60\times4=240\).
+In this chapter we are going to learn how to add and subtract numbers. Addition and subtraction are used to build amounts or quantities.
+Given:
+Number of cars = 1
+Length of each car = 40 m
+Total length of all cars = ?
+Answer:",0.2552,0.0809,0.7763,0.0,0.3505,2.44
+48,L2_Multiplication,A garden has 5 rows of 11 flowers. How many flowers are there?,55," Multiply the number of rows by the number of flowers in each row.
+## Step 1: Determine the number of flowers in each row
+There are 11 flowers in each row.
+
+## Step 2: Calculate the total number of flowers in the garden
+Multiply the number of rows (5) by the number of flowers in each row (11).
+
+The final answer is: $\boxed{55}$",0.2354,0.7124,0.9607,0.1622,0.5713,6.64
+49,L2_Multiplication,Each bag weighs 3 kg. How much do 14 bags weigh?,42," 
+Answer: 42 kg.
+Explanation: Since each bag weighs 3 kg, we multiply the number of bags by the weight per bag to find the total weight. This is equivalent to dividing 42 by 3 and getting 14 as the answer.
+42 ÷ 3 = 14.",0.2872,0.3869,0.84,0.1332,0.448,7.17
+50,L2_Multiplication,A factory makes 25 toys per day. How many toys in 6 days?,150," Let's multiply the number of toys made each day by 6.
+## Step 1: Multiply the number of toys made each day by 6 to find out how many toys are made in 6 days.
+To find out the total number of toys made in 6 days, we need to multiply 25 (number of toys per day) by 6.
+
+## Step 2: Perform the multiplication to get the answer.
+Total number of toys = 25 * 6
+Total number",0.1345,0.3108,0.9235,0.0,0.4329,4.52
+51,L2_Multiplication,There are 7 days in a week. How many days are there in 8 weeks?,56," Since there is only one week, the number of days remains the same.
+In this question, we are trying to find out how many days there are in 8 weeks. Since each week has 7 days, we multiply 8 by 7 to get our answer.
+8 x 7 = 56
+There are 56 days in 8 weeks.",0.1838,0.3465,0.895,0.167,0.404,2.96
+52,L2_Multiplication,A bookshelf has 9 shelves each holding 12 books. How many books in total?,108," 
+## Step 1: Calculate the number of books on one shelf.
+There are 12 books on each shelf.
+
+## Step 2: Multiply the number of books on one shelf by the number of shelves to find the total number of books.
+To find the total number of books, multiply 12 (the number of books per shelf) by 9 (the number of shelves). This equals 108 books.
+
+The final answer is: $\boxed{108}$",0.3608,0.5644,0.9027,0.1881,0.5382,3.68
+53,L2_Multiplication,Each box holds 15 oranges. How many oranges are in 7 boxes?,105," Use multiplication to solve this problem.
+## Step 1: Determine the number of oranges in one box
+There are 15 oranges in each box.
+
+## Step 2: Multiply the number of oranges by the number of boxes
+To find the total number of oranges, we multiply the number of oranges per box (15) by the number of boxes (7). So, 15 * 7 = 105.
+
+The final answer is: $\boxed{105}$",0.3411,0.3777,0.9524,0.1779,0.4839,2.98
+54,L2_Multiplication,A builder lays 20 bricks per hour. How many bricks in 9 hours?,180," 
+## Step 1: Calculate the number of bricks laid in one hour
+The builder lays 20 bricks in one hour.
+
+## Step 2: Multiply the number of bricks laid per hour by the total hours worked to find the total number of bricks.
+Total bricks = bricks per hour * total hours worked
+Total bricks = 20 bricks/hour * 9 hours
+
+## Step 3: Perform the multiplication to get the final answer.
+Total bricks = 180 bricks
+
+The final answer",0.1376,0.5416,0.8811,0.1639,0.4529,3.05
+55,L2_Multiplication,A spider has 8 legs. How many legs do 6 spiders have?,48," Use multiplication.
+## Step 1: Understand the problem
+We need to find out how many legs a group of spiders have, knowing that each spider has 8 legs.
+
+## Step 2: Apply the multiplication principle
+To find the total number of legs for 6 spiders, we multiply the number of spiders by the number of legs each spider has. This means multiplying 6 (number of spiders) by 8 (number of legs per spider).
+
+## Step 3: Calculate the total",0.19,0.1818,0.8329,0.1497,0.3351,3.11
+56,L2_Multiplication,A class reads 3 chapters a day. How many chapters in 11 days?,33," 
+## Step 1: Identify the number of chapters read each day
+The class reads 3 chapters a day.
+
+## Step 2: Multiply the number of chapters by the number of days
+To find out how many chapters they will have read after 11 days, multiply 3 (the number of chapters per day) by 11 (the number of days).
+
+## Step 3: Perform the multiplication
+3 * 11 = 33
+
+The final answer is: $\boxed{",0.2428,0.5759,0.7767,0.1569,0.4725,5.34
+57,L2_Multiplication,An egg tray holds 12 eggs. How many eggs in 8 trays?,96," 
+## Step 1: First, let's figure out how many eggs are there in one tray.
+There are 12 eggs in one tray.
+
+## Step 2: To find the total number of eggs in 8 trays, we need to multiply the number of eggs in one tray by the number of trays.
+Total number of eggs = 12 * 8.
+
+## Step 3: Now let's do the multiplication.
+12 * 8 = 96
+
+The final answer is:",0.1899,0.6956,0.9691,0.1463,0.5568,6.57
+58,L2_Multiplication,Each row in a cinema has 22 seats. How many seats in 10 rows?,220," Use multiplication.
+## Step 1: Identify the number of seats per row and the total number of rows.
+There are 22 seats per row, and there are 10 rows.
+
+## Step 2: Multiply the number of seats per row by the total number of rows to find the total number of seats.
+Total seats = 22 * 10
+
+## Step 3: Perform the multiplication.
+Total seats = 220
+
+The final answer is: $\boxed{220}$",0.2893,0.0929,0.9593,0.1797,0.3676,6.12
+59,L2_Multiplication,A bicycle has 2 wheels. How many wheels do 16 bicycles have?,32," 
+
+## Step 1: Calculate the number of wheels for one bicycle.
+One bicycle has 2 wheels.
+
+## Step 2: Multiply the number of wheels for one bicycle by the total number of bicycles to find the total number of wheels.
+Total number of wheels = Number of wheels per bicycle * Total number of bicycles
+Total number of wheels = 2 * 16
+
+## Step 3: Calculate the multiplication to get the final answer.
+Total number of wheels = 32
+
+The final",0.2636,0.6142,0.8578,0.1365,0.5236,6.72
+60,L2_Multiplication,A shirt costs 250 rupees. What is the cost of 4 shirts?,1000,"?
+The answer is: 1000
+Explanation: To find out how much one shirt costs, multiply its price by 1:
+Then multiply by 4 to find the total cost for 4 shirts:
+Total cost = (250 * 1) * 4 = 1000.",0.3876,0.4662,0.8332,0.1105,0.5157,4.94
+61,L2_Multiplication,A farmer harvests 45 kg of wheat per day. How much in 5 days?,225," 
+Answer:
+Multiply the amount harvested each day by 5 to find out how much is harvested in total. 
+45 kg * 5 = 225 kg
+The farmer harvests 225 kg of wheat in 5 days.",0.1606,0.3532,0.9299,0.1971,0.3997,5.67
+62,L2_Multiplication,There are 24 hours in a day. How many hours in 7 days?,168," Multiply the number of hours per day by the number of days.
+Answer:
+To find the total number of hours in 7 days, multiply the number of hours per day (24) by the number of days (7).
+24 × 7 = 168
+There are 168 hours in 7 days.",0.2311,0.8055,0.5831,0.0,0.5378,2.89
+63,L2_Multiplication,A box of 6 pens costs 30 rupees. How much do 3 boxes cost?,90," (Assume each pen costs the same amount)
+## Step 1: Determine the cost per pen
+To find out how much one pen costs, we need to divide the total cost by the number of pens in a box. The total cost for a box is 30 rupees and there are 6 pens.
+
+## Step 2: Calculate the cost per pen
+Cost_per_pen = Total_cost / Number_of_pens = 30 / 6 = 5
+
+## Step 3",0.0612,0.5138,0.9564,0.1507,0.443,7.48
+64,L2_Multiplication,A school bus makes 4 trips a day. How many trips in 5 days?,20," 
+## Step 1: Determine the number of trips made per day
+The school bus makes 4 trips a day.
+
+## Step 2: Calculate the total number of trips in 5 days
+To find the total number of trips in 5 days, multiply the number of trips made per day by the number of days. So, we have 4 trips/day * 5 days = 20 trips.
+
+The final answer is: $\boxed{20}$",0.2762,0.0695,0.8513,0.1446,0.333,9.08
+65,L2_Multiplication,Each child gets 3 sweets. There are 18 children. How many sweets are needed?,54," 
+## Step 1: Calculate the number of sweets per child
+Each child gets 3 sweets.
+
+## Step 2: Multiply the number of sweets per child by the number of children to get the total number of sweets needed
+There are 18 children, so multiply 3 (the number of sweets per child) by 18.
+
+The final answer is: $\boxed{54}$",0.2757,0.7032,0.9338,0.1567,0.5757,7.99
+66,L2_Multiplication,A train has 12 compartments each with 50 seats. How many seats in total?,600," 
+Step 1: Find the number of seats in one compartment. This is given as 50.
+Step 2: Multiply this by the number of compartments, which is also 12. Total number of seats = 50 * 12 = 600.
+
+The final answer is $\boxed{600}$.",0.2716,0.5857,0.6581,0.1512,0.4521,6.35
+67,L2_Multiplication,A field is 13 meters long and 6 meters wide. What is its area?,78," Given the dimensions of a rectangle, the area can be found by multiplying the length by the width.
+Answer:
+The area of the field is 78 square meters.",0.1722,0.5403,0.7303,0.1932,0.4105,4.13
+68,L2_Multiplication,A shop sells 35 bottles of water per hour. How many bottles in 8 hours?,280, Multiply 35 by 8 to find out. 35 × 8 = 280 bottles. The answer is 280.,0.4026,0.3246,0.6145,0.0,0.4389,2.96
+69,L2_Multiplication,Each notebook has 80 pages. How many pages in 9 notebooks?,720,"  
+## Step 1: To find the total number of pages, multiply the number of pages per notebook by the number of notebooks.
+We need to calculate 80 pages * 9 notebooks.
+
+## Step 2: Perform the multiplication.
+Total pages = 80 * 9 = 720 pages.
+
+The final answer is: $\boxed{720}$",0.3301,0.6104,0.872,0.8354,0.3401,4.64
+70,L2_Multiplication,A flower pot needs 2 liters of water daily. How much water for 15 pots?,30," 
+## Step 1: Determine the amount of water needed per pot
+Each flower pot needs 2 liters of water.
+
+## Step 2: Calculate the total amount of water needed for all pots
+To find out how much water is needed for 15 pots, we multiply the amount of water needed per pot by the number of pots. This gives us 2 * 15 = 30 liters.
+
+The final answer is: $\boxed{30}$",0.2425,0.5951,0.8595,0.0,0.551,5.59
+71,L2_Multiplication,A bus has 11 windows on each side. How many windows does it have on both sides?,22," To find the total number of windows, you multiply the number of windows on one side by the number of sides:
+11 x 2 = 22
+There are 22 windows on both sides.",0.287,0.436,0.8615,0.1365,0.4706,5.58
+72,L2_Multiplication,A restaurant serves 40 meals per hour. How many meals in 6 hours?,240," 
+Answer: 240 meals.",0.5045,0.4106,0.4573,0.1249,0.42,3.92
+73,L2_Multiplication,Each pack contains 16 crayons. How many crayons in 5 packs?,80," 
+Answer: 80 crayons.
+Explanation:
+Since there are 16 crayons in one pack, to find out how many are in five packs we multiply 16 by 5. 
+So 16 * 5 = 80. The answer is 80 crayons.",0.3681,0.1315,0.8776,0.0,0.4381,8.09
+74,L2_Multiplication,A wall is built with 17 bricks per row. How many bricks in 9 rows?,153," Multiply the number of bricks per row by the number of rows.
+## Step 1: Calculate the total number of bricks in one row
+There are 17 bricks in each row.
+
+## Step 2: Multiply the number of bricks per row by the number of rows to find the total number of bricks
+The total number of bricks is calculated as follows:
+Total number of bricks = Number of bricks per row * Number of rows
+= 17 * 9
+
+## Step 3: Calculate",0.2556,0.5129,0.8837,0.5536,0.368,7.99
+75,L2_Multiplication,A monkey eats 4 bananas a day. How many bananas in 12 days?,48," 
+Answer:
+4 bananas/day × 12 days = 48 bananas
+There are 48 bananas in 12 days.",0.3238,0.6009,0.8581,0.0,0.5811,5.28
+76,L2_Multiplication,There are 60 minutes in an hour. How many minutes in 5 hours?,300," 
+Answer: 300 minutes
+Explanation:
+Since there are 60 minutes in one hour, multiply 60 by the number of hours (which is 5). Then count how many minutes this equals.
+300 = 60 * 5",0.309,0.6263,0.8974,0.0,0.5965,6.58
+77,L2_Multiplication,A cricket team has 11 players. How many players in 6 teams?,66," The same number of players divided into 6 equal groups will give us the answer.
+There are already 6, so we just need to divide by 6:
+11 ÷ 6 =1.83
+So each group can only have one player. The other 5 players will be reserve players.",0.1691,0.6025,0.7942,0.6502,0.3132,6.3
+78,L2_Multiplication,A bag of rice weighs 5 kg. How much do 13 bags weigh?,65,"?
+## Step 1: Calculate the total weight by multiplying the number of bags with the weight of one bag
+To find out how much all 13 bags weigh, we need to multiply the weight of one bag (5 kg) by the number of bags (13).
+
+## Step 2: Perform the multiplication
+Total weight = weight of one bag * number of bags
+Total weight = 5 kg * 13
+
+## Step 3: Calculate the total weight
+Total weight = ",0.0822,0.5579,0.8789,0.1974,0.4285,9.84
+79,L2_Multiplication,Each student plants 3 saplings. There are 25 students. How many saplings are planted?,75," 
+## Step 1: Determine the number of saplings each student plants.
+Each student plants 3 saplings.
+
+## Step 2: Calculate the total number of saplings by multiplying the number of saplings per student by the number of students.
+Total saplings = Number of saplings per student * Number of students
+Total saplings = 3 * 25
+
+## Step 3: Perform the multiplication to find the total number of saplings planted.
+Total saplings = 75",0.1934,0.6439,0.9751,0.1832,0.5306,9.89
+80,L2_Multiplication,A worker packs 18 boxes per hour. How many boxes in 7 hours?,126," 
+
+## Step 1: Determine the number of boxes packed in one hour.
+The worker packs 18 boxes per hour.
+
+## Step 2: Calculate the total number of boxes packed in 7 hours by multiplying the number of boxes packed in one hour by 7.
+Total_boxes = 18 * 7
+
+## Step 3: Perform the multiplication to find the total number of boxes.
+Total_boxes = 126
+
+The final answer is: $\boxed{126}$",0.2522,0.6507,0.7563,0.1508,0.4977,6.96
+81,L3_Division,72 mangoes are shared equally among 9 children. How many does each get?,8," 
+Number of mangoes = 72
+Number of children = 9
+So, to find out how many mangoes each gets, divide the total number of mangoes by the number of children:
+mangoes per child = Total mangoes / Number of children
+mangoes per child = 72/9
+mangoes per child = 8
+So, each child gets 8 mangoes.",0.3207,0.6966,0.5531,0.1178,0.4867,5.02
+82,L3_Division,A baker makes 56 cookies and packs them into bags of 7. How many bags?,8," To find out, divide the number of cookies by the number of cookies per bag.
+56 ÷ 7 = 8
+There are 8 bags of cookies.",0.3331,0.7574,0.5751,0.0,0.5542,6.41
+83,L3_Division,48 students are divided into groups of 6. How many groups are there?,8," 
+## Step 1: Calculate the number of groups by dividing the total number of students by the number of students in each group.
+To find out how many groups there are, we need to divide the total number of students by the number of students in each group.
+
+## Step 2: Perform the division to get the result.
+48 ÷ 6 = 8
+
+The final answer is: $\boxed{8}$",0.225,0.4406,0.9217,0.0,0.5095,9.04
+84,L3_Division,A farmer has 84 eggs and packs them in boxes of 12. How many boxes?,7," Divide the total number of eggs by the number of eggs per box.
+## Step 1: Calculate the number of full boxes
+To find out how many full boxes can be made, we need to divide the total number of eggs (84) by the number of eggs per box (12).
+
+## Step 2: Perform the division
+Performing the division gives us 84 / 12 = 7. This means that there are 7 full boxes with no eggs left over.
+
+The final",0.2152,0.2678,0.9,0.0,0.4391,10.22
+85,L3_Division,120 books are placed equally on 10 shelves. How many books per shelf?,12," 
+
+## Step 1: Calculate the number of books per shelf by dividing the total number of books by the number of shelves.
+To find out how many books are placed on each shelf, we divide the total number of books (120) by the number of shelves (10).
+
+## Step 2: Perform the division to get the result.
+Books per shelf = Total number of books / Number of shelves = 120 / 10 = 12.
+
+The final answer is: $\boxed{12",0.2739,0.6908,0.957,0.0,0.6247,10.14
+86,L3_Division,A rope of 90 meters is cut into pieces of 9 meters. How many pieces?,10," Each piece has a length of 9 meters.
+## Step 1: Calculate how many times 9 meters fits into 90 meters to find the number of pieces.
+To do this, we divide 90 by 9.
+
+## Step 2: Perform the division.
+90 / 9 = 10
+
+The final answer is: $\boxed{10}$",0.225,0.4928,0.8363,0.6864,0.2962,8.61
+87,L3_Division,63 sweets are shared equally among 7 friends. How many sweets each?,9," 
+Divide the total number of sweets (63) by the number of friends (7). That gives:
+63 ÷ 7 = 9
+Each friend gets 9 sweets.",0.3814,0.6926,0.9428,0.0,0.6587,6.66
+88,L3_Division,A teacher divides 96 pencils equally among 8 students. How many pencils per student?,12," 
+
+## Step 1: Determine the total number of pencils
+There are 96 pencils in total.
+
+## Step 2: Divide the total number of pencils by the number of students
+To find out how many pencils each student gets, we divide the total number of pencils (96) by the number of students (8).
+
+## Step 3: Calculate the result
+96 / 8 = 12
+
+The final answer is: $\boxed{12}$",0.2885,0.7551,0.9693,0.1355,0.6154,9.82
+89,L3_Division,150 rupees are shared equally among 5 children. How much does each get?,30, (Note: This question requires division rather than multiplication.) Difficulty level is ONLY IN THIS QUESTION.,0.2713,0.5182,0.4984,0.1711,0.3745,7.39
+90,L3_Division,A factory produces 200 bottles in 4 hours. How many bottles per hour?,50," Calculate the number of bottles produced every minute.
+First, calculate how many bottles are produced every hour by dividing the total number of bottles by the time:
+\[ \frac{200\text{ bottles}}{4\text{ hours}} =50\text{ bottles/hour}\]
+To find out how many bottles are produced every minute, divide the hourly production rate by 60 minutes:
+\[\frac{50\text{ bottles}}{1\text{ hour}}=\frac{50\",0.2994,0.3962,0.8928,0.7437,0.2882,9.42
+91,L3_Division,A bag of 45 marbles is divided equally into 5 bags. How many marbles per bag?,9," 
+## Step 1: Calculate the number of marbles in each bag by dividing the total number of marbles by the number of bags.
+To find out how many marbles are in each bag, we divide the total number of marbles (45) by the number of bags (5).
+
+## Step 2: Perform the division to get the result.
+45 ÷ 5 = 9
+
+The final answer is: $\boxed{9}$",0.2121,0.8111,0.9274,0.0,0.6364,8.28
+92,L3_Division,144 chairs are arranged in rows of 12. How many rows are there?,12," 
+## Step 1: First, we need to determine the total number of chairs.
+There are 144 chairs in total.
+
+## Step 2: Next, we find out how many chairs are in each row.
+Each row has 12 chairs.
+
+## Step 3: To find out how many rows there are, divide the total number of chairs by the number of chairs per row.
+rows = total_chairs / chairs_per_row = 144 / 12
+
+## Step 4:",0.3623,0.5774,0.9344,0.1639,0.56,9.89
+93,L3_Division,A box of 60 chocolates is shared equally among 4 children. How many each?,15," 
+To find the answer, we need to divide the total number of chocolates (60) by the number of children (4). 
+So, the calculation will be:
+60 ÷ 4 = 15
+Therefore, there are 15 chocolates for each child. The answer is 15.",0.3285,0.2036,0.8897,0.1797,0.3993,8.08
+94,L3_Division,A tank holds 180 liters. It fills 6 equal buckets. How many liters per bucket?,30," 
+## Step 1: Determine the total number of buckets.
+The tank fills 6 equal buckets.
+
+## Step 2: Calculate the volume per bucket by dividing the total capacity by the number of buckets.
+Volume per bucket = Total capacity / Number of buckets = 180 liters / 6
+
+## Step 3: Perform the division to find out how many liters each bucket holds.
+Volume per bucket = 30 liters.
+
+The final answer is: $\boxed{30}$",0.2641,0.3421,0.9153,0.1245,0.4494,10.02
+95,L3_Division,110 students are seated equally in 11 rows. How many students per row?,10," 
+## Step 1: Calculate the number of students per row by dividing the total number of students by the number of rows.
+To find out how many students per row, we need to divide the total number of students by the number of rows.
+
+## Step 2: Perform the division.
+110 students / 11 rows = 10 students per row.
+
+The final answer is: $\boxed{10}$",0.1615,0.5447,0.9293,0.0,0.526,10.53
+96,L3_Division,A school buys 240 notebooks for 8 classrooms equally. How many per class?,30," 
+Classroom A uses 240 / 8 = <<240/8=30>>30 notebooks
+Classroom B also uses 30 notebooks.
+Classroom C to D also uses 30 each. 
+Classroom E, F and G use 30 each as well.
+Classrooms H, I and J all use 30 per class.
+So there are three classes with 30 notebooks per class. The answer is 3.",0.2252,0.2141,0.7635,0.1855,0.3272,10.15
+97,L3_Division,A driver covers 300 km in 5 hours. What is the speed per hour?,60, This question needs ONLY math difficulty number and answer.,0.2695,0.569,0.4163,0.1303,0.3793,2.93
+98,L3_Division,There are 108 players to be divided into teams of 9. How many teams?,12," 
+## Step 1: First, we need to find out how many full teams can be made with the given number of players.
+To do this, we'll divide the total number of players by the number of players in each team.
+
+## Step 2: Divide the total number of players by the number of players in each team to get the number of full teams.
+Number of teams = Total number of players / Number of players per team
+Number of teams = 108 / 9
+
+",0.1694,0.2902,0.9257,0.198,0.3792,10.58
+99,L3_Division,A garden has 77 flowers arranged in 7 equal rows. How many flowers per row?,11," 
+
+## Step 1: Calculate the number of flowers per row by dividing the total number of flowers by the number of rows.
+To find out how many flowers are there in each row, we divide the total number of flowers (77) by the number of rows (7).
+
+## Step 2: Perform the division to get the result.
+77 ÷ 7 = 11
+
+The final answer is: $\boxed{11}$",0.2473,0.6215,0.9584,0.0,0.5916,8.87
+100,L3_Division,A packet of 64 stickers is divided equally among 8 children. How many each?,8," 
+## Step 1: Determine the total number of stickers
+There are 64 stickers in the packet.
+
+## Step 2: Divide the total number of stickers by the number of children to find out how many stickers each gets.
+To divide equally, we use division. So, we calculate 64 / 8 = ?
+
+## Step 3: Perform the division to get the answer
+64 divided by 8 equals 8.
+
+The final answer is: $\boxed{8}$",0.369,0.5853,0.885,0.1536,0.5534,4.05
+101,L3_Division,A shop earns 350 rupees in 7 days equally. How much per day?,50," 
+## Step 1: Calculate the total earnings of the shop
+The shop earns a total of 350 rupees.
+
+## Step 2: Determine the number of days
+The shop operates for 7 days.
+
+## Step 3: Divide the total earnings by the number of days to find out how much is earned per day
+To find out the daily amount, we divide the total earnings (350 rupees) by the number of days (7).
+
+## Step 4: Perform the",0.1384,0.4372,0.8617,0.184,0.4048,9.43
+102,L3_Division,A class of 36 students is split into groups of 4. How many groups?,9," 
+Answer: 9 groups.",0.5257,0.5417,0.59,0.0799,0.5266,2.12
+103,L3_Division,A roll of cloth 96 meters long is cut into 8 equal pieces. How long is each?,12," 
+## Step 1: Determine the length of each piece by dividing the total length of the cloth by the number of pieces.
+To find out how long each piece is, we need to divide the total length of the cloth (96 meters) by the number of pieces it's cut into (8).
+
+## Step 2: Perform the calculation.
+Length of each piece = Total length / Number of pieces = 96 / 8
+
+The final answer is: $\boxed{12}$",0.2883,0.4856,0.7547,0.0,0.4973,3.08
+104,L3_Division,350 ml of juice is poured equally into 5 glasses. How much per glass?,70," 
+## Step 1: Calculate the amount of juice each glass will get.
+To find out how much juice each glass gets, we need to divide the total amount of juice (350 ml) by the number of glasses (5).
+
+## Step 2: Perform the division to get the result.
+350 ml / 5 = 70 ml
+
+The final answer is: $\boxed{70}$",0.2471,0.6732,0.4866,0.0996,0.4382,2.4
+105,L3_Division,132 apples are packed into boxes of 11. How many boxes are needed?,12," 
+
+## Step 1: To find out how many boxes are needed, we need to divide the total number of apples by the number of apples per box.
+The total number of apples is given as 132.
+
+## Step 2: The number of apples packed into each box is given as 11. We will use this to calculate the number of boxes.
+Number of apples per box = 11
+
+## Step 3: Divide the total number of apples by the number of apples per box",0.2847,0.5931,0.9383,0.132,0.5491,3.73
+106,L3_Division,A worker earns 540 rupees in 6 days. How much per day?,90," To find this out, divide the total amount of money earned by the number of days:
+540 ÷ 6 = 90.
+Therefore, the worker earns 90 rupees each day.",0.2067,0.3918,0.8319,0.194,0.4009,10.55
+107,L3_Division,280 grams of rice is divided equally into 7 portions. How many grams each?,40," 
+## Step 1: Calculate the number of grams per portion by dividing the total amount of rice by the number of portions.
+Divide 280 grams by 7.
+
+The final answer is: $\boxed{40}$",0.2811,0.0978,0.9592,0.193,0.3625,4.53
+108,L3_Division,A bus carries 45 passengers per trip. How many trips to carry 225 passengers?,5," Divide the number of passengers by the number of passengers per trip. 225 ÷ 45 = 5.
+The best answer is 5.",0.3029,0.4894,0.8353,0.1814,0.4735,2.69
+109,L3_Division,"A field produces 480 kg of wheat. If packed in 8 kg bags, how many bags?",60," To find out the number of bags needed, divide the total amount of wheat by the weight per bag.
+Number of bags = Total amount of wheat ÷ Weight per bag
+= 480 ÷ 8
+= 60
+There are 60 bags.",0.1636,0.7553,0.8964,0.0,0.5905,3.28
+110,L3_Division,A ribbon of 72 cm is cut into 6 equal parts. How long is each part?,12," 
+Answer: Each part will be = (72/6) cm = 12cm.
+This problem follows the pattern of dividing a length by a certain number to find the length of each equal part. Given that there are 72 cm and it has been divided into 6 equal parts, we simply divide 72 by 6 to get our answer. This is a classic example of division where we know the total amount (72) and need to find how many equal parts there are (6",0.282,0.5518,0.7976,0.1188,0.4955,3.63
+111,L3_Division,256 tiles are laid equally in 8 rows. How many tiles per row?,32," 
+## Step 1: Calculate the total number of tiles
+We know that there are 256 tiles.
+
+## Step 2: Divide the total number of tiles by the number of rows to find out how many tiles are in each row.
+To do this, we divide 256 tiles by 8 rows.
+
+## Step 3: Perform the division to find out the number of tiles per row
+256 / 8 = 32
+
+The final answer is: $\boxed{32}$",0.3578,0.5443,0.8428,0.1355,0.5279,7.55
+112,L3_Division,A trader distributes 130 kg of sugar into bags of 5 kg. How many bags?,26," 
+
+## Step 1: Determine the number of bags by dividing the total amount of sugar by the weight of each bag.
+To find out how many bags are filled with the given amount of sugar, we divide the total weight of the sugar (130 kg) by the weight capacity of each bag (5 kg).
+
+## Step 2: Perform the division to get the number of bags.
+Number of bags = Total amount of sugar / Weight of each bag
+Number of bags = 130 kg /",0.0779,0.2656,0.9571,0.0,0.4073,7.74
+113,L3_Division,90 flowers are arranged equally in 9 vases. How many flowers per vase?,10," 
+Answer: There are 10 flowers in each vase.",0.3879,0.742,0.7113,0.1821,0.5542,3.34
+114,L3_Division,A zoo has 84 animals in 7 equal enclosures. How many animals per enclosure?,12," Given that the total number of animals (N) is equal to the product of the number of animals per enclosure (n) and the number of enclosures (e), we have:
+N = ne
+Given values are N = 84 and e = 7.
+Substitute these given values into the formula and solve for n:
+84 = n × 7
+Now, divide both sides by 7 to get the value of n alone:
+n = 84 / 7
+n =",0.2677,0.4048,0.8957,0.0849,0.4786,5.2
+115,L3_Division,A machine fills 360 bottles in 6 hours. How many bottles per hour?,60," Divide to find the number of bottles filled per hour.
+## Step 1: Calculate the total number of bottles filled per hour
+To find out how many bottles are filled per hour, we divide the total number of bottles by the number of hours it takes to fill them. Total bottles = 360, hours = 6.
+
+## Step 2: Perform the division
+Bottles per hour = Total bottles / Hours = 360 / 6 = 60
+
+The final answer is:",0.2701,0.3905,0.5869,0.0,0.4073,5.45
+116,L3_Division,A box of 117 oranges is divided equally among 9 families. How many each?,13," 
+Answer: There are 13 oranges per family.",0.2691,0.1346,0.8655,0.1429,0.3581,2.28
+117,L3_Division,168 pages are divided equally into 8 chapters. How many pages per chapter?,21," 
+Answer: There are 21 pages per chapter.",0.2301,0.7301,0.8679,0.185,0.5409,1.03
+118,L3_Division,A vendor sells 210 kg of vegetables in 7 days equally. How many kg per day?,30," 
+
+## Step 1: Calculate the total amount sold over all days
+The vendor sells 210 kg of vegetables.
+
+## Step 2: Determine the number of days on which the sale occurred
+The sale happened for 7 days.
+
+## Step 3: Divide the total amount by the number of days to find out how much is sold each day
+Divide the total kilograms sold, 210, by the number of days, 7. This gives us 210 / 7 =",0.1204,0.5322,0.9112,0.188,0.4454,7.5
+119,L3_Division,A pipe fills a tank of 400 liters in 8 minutes. How many liters per minute?,50," 
+## Step 1: Calculate the total number of liters filled
+First, we need to calculate how many liters are filled in the given time period. The pipe fills the tank at a rate that needs to be found.
+
+## Step 2: Divide the amount of water by the time period to get the fill rate per minute
+Since the problem asks for liters per minute, we need to divide the total number of liters (400) by the time in minutes (8).
+
+The final answer is",0.1537,0.5549,0.7065,0.12,0.424,5.27
+120,L3_Division,81 students are seated equally in 9 rows. How many students per row?,9," 
+## Step 1: Determine the total number of students
+There are 81 students seated.
+
+## Step 2: Divide the total number of students by the number of rows to find out how many students per row there are.
+To find out how many students are in each row, we need to divide the total number of students (81) by the number of rows (9).
+
+## Step 3: Perform the division
+students_per_row = total_students / number_of_rows = 81",0.2023,0.2291,0.8707,0.1358,0.3715,5.0

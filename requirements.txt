@@ -1,0 +1,10 @@
+tensorflow==2.13.0
+tensorflow-metal
+sentence-transformers
+transformers
+torch
+requests
+wikipedia
+ddgs
+pandas
+numpy
